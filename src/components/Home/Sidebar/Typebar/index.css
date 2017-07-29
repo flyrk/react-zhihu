@@ -1,0 +1,54 @@
+.typebar-container {
+  display: flex;
+  width: 100%;
+  height: 30%;
+  margin-bottom: 10px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  box-shadow: 0 0 1px 1px #E7EAF1;
+}
+
+.typebar-categoryList {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0;
+  padding: 0 10px;
+  width: 100%;
+}
+
+.typebar-categoryItem {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 33%;
+  margin-bottom: 10px;
+}
+.typebar-categoryItem img {
+  width: 25px;
+  height: 25px;
+}
+
+.typebar-categoryItem span {
+  color: #8590a6;
+  font-size: 14px;
+}
+
+.typebar-liveItem:hover {
+  color: #FFCF00;
+}
+.typebar-bookItem:hover {
+  color: #43D480;
+}
+.typebar-tableItem:hover {
+  color: #0084FF;
+}
+.typebar-articleItem:hover {
+  color: #0F88EB;
+}
+.typebar-payItem:hover {
+  color: #5478F0;
+}
+li {
+  list-style-type: none;
+}

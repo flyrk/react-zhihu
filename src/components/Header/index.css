@@ -15,6 +15,7 @@
 }
 
 .header-wrapper {
+  width: 70%;
   margin-left: 15%;
   margin-right: 15%;
   display: flex;
@@ -29,6 +30,7 @@
   display: flex;
   justify-content: space-around;
   margin-left: 20px;
+  width: 40%;
 }
 a {
   text-decoration: none;
@@ -36,7 +38,7 @@ a {
 .header-nav-link {
   color: #8590a6;
   padding-right: 30px;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 20px;
 }
 .header-nav-link:hover {
@@ -51,6 +53,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 60%;
 }
 .searchbar-input-wrapper {
   display: flex;
@@ -100,7 +103,8 @@ a {
   justify-content: center;
   align-items: center;
   height: 30px;
-  width: 300px;
+  width: 200px;
+  margin-left: 15%;
 }
 
 .header-info img {

@@ -1,0 +1,9 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 15%;
+  margin-top: 15px;
+  width: 51%;
+  height: 100%;
+  overflow-y: hidden;
+}
